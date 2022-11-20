@@ -41,6 +41,9 @@ main img
     align-items: center;
     align-content: center;
     height: 40vh;
+    background-color:white;
+    padding:10px 10px 50px 10px;
+    border:1px solid #BFBFBF;
 }
 main div 
 {
@@ -57,4 +60,6 @@ header img
     align-items: center;
     width: 5vw;
     margin:5px;
+    
 }
+
