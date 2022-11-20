@@ -1,0 +1,155 @@
+*
+{
+    margin: 0
+}
+aside
+{
+    flex-grow: 1;
+    
+}
+section P
+{
+    flex-grow: 5;
+    margin: 20px ;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+   
+}
+
+aside form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    width: 15vw;
+    margin-left: 5px;
+    margin-top: 40px;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: #919090;
+   
+}
+nav div a li  
+{
+   border-bottom: 3px solid black;
+   border-left: 3px solid black;
+   background-color: #919090;
+   list-style: none;
+   width: 15vw;
+   height: 2vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+
+#ultimo
+{
+border-right: 3px solid black;
+}
+nav ul
+{
+
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+
+
+}
+.recordar
+{
+    margin-left: 10px
+}
+aside form div.form
+{ 
+   
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    
+    
+}
+
+#boton
+{
+    background-color: rgb(75, 77, 75);
+    color:rgb(0, 0, 0) ;
+    font-size: medium;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 5px;
+    border-style: hidden;
+    width: 100px;
+    height: 35px;
+    
+}
+.tooltiptext
+{   
+  visibility: hidden;
+  width: 400px;
+  background-color: rgb(75, 77, 75);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius:  48% 49% 51% / 21% 82% 18% 79% ;
+  position: absolute;
+  left: 120px;
+  
+}
+
+.form:hover .tooltiptext
+{
+    visibility: visible;    
+    height: 20px;
+}
+
+header
+{
+    background: rgb(61,61,61);
+    background: linear-gradient(180deg, rgba(61,61,61,1) 0%, rgba(153,153,153,1) 100%);
+    min-height: 10vh;
+    max-width: 100vw;
+    border-bottom: 3px solid black;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+main
+{
+    
+    background-color: #aca9a9;
+    min-height: 85vh;
+    max-width: 100vw;
+    height: 100%;
+    display: flex;
+    
+    
+}
+
+footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(187, 187, 187);
+    min-height: 5vh;
+    max-width: 100vw;
+}
+
+header img
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 5vw;
+    margin:5px;
+}
+  
